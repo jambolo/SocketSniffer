@@ -1,0 +1,75 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Socket"=..\Libraries\Socket\Socket.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Libraries/Socket", GJAAAAAA
+    ..\libraries\socket
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SocketSniffer"=.\SocketSniffer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SocketSniffer", KIAAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Socket
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Socks5Server
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Socks5Server"=..\Libraries\Socks5Server\Socks5Server.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Libraries/Socks5Server", SKAAAAAA
+    ..\libraries\socks5server
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SocketSniffer", KIAAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
